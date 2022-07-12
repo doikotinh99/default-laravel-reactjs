@@ -8,7 +8,7 @@ docker-compose build
 docker-compose up -d
 
 # build laravel
-docker exec -it laravel bash
+docker exec -it laravel bash \n
 composer install
 chmod -R 775 storage bootstrap/cache
 chmod o+w ./storage/ -R
